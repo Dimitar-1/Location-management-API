@@ -10,7 +10,7 @@ import org.mockito.junit.jupiter.MockitoExtension;
 class UserTest {
 
     @Test
-    void test_model_entities() {
+    void test_user_variations() {
         BeanTester beanTester = new BeanTester();
 
         beanTester.testBean(UserEntity.class);
